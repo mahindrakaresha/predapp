@@ -5,7 +5,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('D:/datasci/trained_model1.sav', 'rb'))
+loaded_model = pickle.load(open('D:\proj\trained_model1.sav', 'rb'))
 
 def predict(input_data):
     # Convert input data to a numpy array and reshape for prediction
